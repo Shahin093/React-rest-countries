@@ -1,16 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { useEffect, useState } from 'react';
-import Countries from './components/Countries';
-import Person from './components/Person/Person';
-import Header from './components/Header/Header';
+import Countries from './component/Countries/Countries';
 
 function App() {
   return (
     <div className="App">
       <Countries></Countries>
-      <Person></Person>
-      <Header></Header>
     </div>
   );
 }
